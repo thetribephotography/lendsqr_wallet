@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "NodeNext",
+        "moduleResolution": "node",
+        "baseUrl": "/",
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "ES6",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "pretty": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false
+    },
+    "include": [
+        "index.ts",
+        "*.ts",
+        "*.js",
+        "loaders/*.ts",
+        "utils/*",
+        "constants/*",
+        "config/*",
+        "database/*",
+        "middlewares/*"
+    ],
+    "exclude": ["node_modules", "package.json", "dist"]
+}

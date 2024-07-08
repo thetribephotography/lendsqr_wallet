@@ -1,0 +1,49 @@
+{
+    "name": "lendsqr_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "nodemon index.ts",
+        "db:up": "docker-compose up -d",
+        "db:create": "sequelize db:create",
+        "db:migrate": "sequelize db:migrate",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/argon2": "^0.15.0",
+        "@types/cors": "^2.8.17",
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.21",
+        "@types/express-session": "^1.18.0",
+        "@types/jest": "^29.5.12",
+        "@types/joi": "^17.2.3",
+        "@types/jsonwebtoken": "^9.0.6",
+        "@types/knex": "^0.16.1",
+        "@types/validator": "^13.12.0",
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.4",
+        "reflect-metadata": "^0.2.2",
+        "ts-jest": "^29.1.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.3"
+    },
+    "dependencies": {
+        "@types/node": "^20.14.9",
+        "argon2": "^0.40.3",
+        "axios": "^1.7.2",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "joi": "^17.13.3",
+        "jsonwebtoken": "^9.0.2",
+        "knex": "^3.1.0",
+        "mysql2": "^3.10.2"
+    }
+}
